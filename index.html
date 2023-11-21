@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body align="center">
+        <div class="box">
+        <form id="doo">
+            <label for="name">Name:--<span >*</span></label>
+            <input required type="text" id="name" name="name"  >
+            <br><br>
+            <label for="email">Email:--<span >*</span></label>
+            <input required type="email" id="email" name="email" >
+            <br><br>
+            <label for="password">Password:--<span >*</span></label>
+            <input  type="password" id="password" name="password" required>
+            <br><br>
+            <label for="dob">Date of Birth:--<span >*</span></label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+            <input type="checkbox" id="acceptTerms" name="acceptTerms">
+            <label for="acceptTerms">Accept Terms & Conditions</label>
+            <br><br>
+            <button class="button"  type="submit"><h4>Submit</h4></button>
+            <br><br>
+           <div>
+            <h2 style="text-align:center;">Entries</h2>
+            <div id="entries"></div>
+           </div>
+        </form>
+        </div>
+    </body>
+    <script src="done.js"></script>
+</html>
